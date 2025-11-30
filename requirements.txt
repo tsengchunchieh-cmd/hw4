@@ -1,0 +1,27 @@
+# RAG 文件問答系統 - 依賴套件
+
+# Core Dependencies
+streamlit==1.31.1
+langchain==0.1.10
+langchain-community==0.0.24
+langchain-google-genai==0.1.0
+
+# Embedding Models
+sentence-transformers==2.2.2
+torch>=2.0.0
+
+# Vector Database
+faiss-cpu==1.7.4
+
+# Document Processing
+pypdf==4.0.1
+python-docx==0.8.11
+unstructured==0.12.1
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+pydantic==2.5.3
+
+# Optional: For better document processing
+pillow==10.1.0

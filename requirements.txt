@@ -3,8 +3,10 @@
 # Core Dependencies
 streamlit==1.31.1
 langchain==0.1.10
-langchain-community==0.0.24
-langchain-google-genai==0.1.0
+langchain-community==0.0.25
+langchain-core==0.1.27
+langchain-google-genai==1.0.1
+google-generativeai==0.5.3
 
 # Embedding Models
 sentence-transformers==2.2.2
